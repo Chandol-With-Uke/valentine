@@ -42,9 +42,7 @@ export default function Page() {
       {yesPressed ? (
         <>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" />
-          <div className="text-4xl md:text-6xl font-bold my-4">
-            Ok Yayyyyy!!!
-          </div>
+          <div className="text-4xl md:text-6xl font-bold my-4">Ok Yayyyyy!!!</div>
         </>
       ) : (
         <>
@@ -61,8 +59,9 @@ export default function Page() {
             src="https://gifdb.com/images/high/cute-Love-bear-roses-ou7zho5oosxnpo6k.gif"
           />
           <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Randremilanto Harimalala Brunah Will you be my Valentine?
+            Randremilanto Harimalala Brunah will you be my Valentine?
           </h1>
+          <h3 className="text-4xl md:text-6xl my-4 text-center">🦄💗🐻</h3>
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
               className={`bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg mr-4`}
